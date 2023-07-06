@@ -182,6 +182,11 @@ a {
   color: #1a1a1a;
   font-size: 0.9rem;
   font-weight: 500;
+  transition: background .3s;
+}
+
+.about-text a:hover {
+  background-color: #4f515a3b;
 }
 
 .about-text a i {
@@ -336,7 +341,7 @@ a {
 .contact p{
   color: #252525;
   font-weight: 500;
-  max-width: 550px;
+  max-width: 600px;
 }
 
 .contact a{
